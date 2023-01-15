@@ -91,6 +91,7 @@ export default {
     top: 0;
     width: 100vw;
     background-color: $dc-white;
+    z-index: 2;
 
     .logo img{
         height: 80px;

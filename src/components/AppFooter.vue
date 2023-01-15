@@ -142,7 +142,6 @@ export default {
     .footer-top{
       background-color: $dc-blue;
       padding: 50px 10%;
-      margin-top: 120px; /**********REMOVE AND PUT IN MAIN**********/
 
       .icon-list{
         list-style: none;
