@@ -64,7 +64,7 @@ export default {
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="../assets/img/dc-logo.png" alt="dc-logo">
+                <img src="../../public/img/dc-logo.png" alt="dc-logo">
             </div>
             <nav>
                 <ul>
@@ -81,7 +81,7 @@ export default {
 <style lang="scss">
     @use '../styles/singles/variables' as *;
   .navbar{
-    padding: 10px 10%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,8 +102,12 @@ export default {
     }
     
     li{
-        padding: 30px 10px;
+        padding: 50px 10px;
         color: $dc-grey;
+    }
+
+    li:hover{
+        color: $dc-blue;
     }
 
     .active{
